@@ -1,0 +1,29 @@
+.container_app-header{
+	position: relative;
+	height: 0;
+}
+.app-header{
+	position: relative;
+	left: 10.4%;
+	top: 30px;
+
+	display: flex;
+	align-items: end;
+}
+.logo{
+	position: relative;
+	left: 5px;
+	top: -3px
+}
+.app-header__nav{
+	list-style-type: none;
+	display: flex;
+	gap: 40px;
+}
+
+.app-header__nav li button{
+	border: none;
+	background: none;
+	color: #fff;
+	font-size: 12px;
+}

@@ -1,0 +1,12 @@
+footer .app-header__nav li button{
+	color: black;
+}
+footer{
+	min-height: 150px;
+	padding-top: 30px;
+}
+footer .app-header{
+	position: static;
+	justify-content: center;
+	margin-bottom: 30px;
+}

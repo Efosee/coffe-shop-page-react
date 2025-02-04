@@ -1,13 +1,20 @@
-import {Component} from "react";
+import { Component } from "react";
 
+import AppCoffeeHouse from "../coffee-house/app-coffee-house";
+import AppHeader from "../app-header/app-header";
+import AppFooter from "../app-footer/app-footer";
 import './app.css'
 
-class App extends Component{
+class App extends Component {
 
 
-	render(){
-		return(
-			<h1>{this.props.hello}</h1>
+	render() {
+		return (
+			<>
+				<AppHeader />
+				<AppCoffeeHouse />
+				<AppFooter/>
+			</>
 		);
 	}
 }

@@ -1,0 +1,19 @@
+.divider{
+	display: flex;
+	align-items: center;
+	gap: 25px;
+	justify-content: center;
+}
+.divider::after, .divider::before{
+	content: '';
+	width: 60px;
+	height: 1px;
+	display: block;
+}
+.divider_white::after, .divider_white::before{
+	background-color: #fff;
+}
+.divider_black::after, .divider_black::before{
+	background-color: #000;
+}
+

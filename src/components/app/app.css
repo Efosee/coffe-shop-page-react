@@ -1,0 +1,13 @@
+:root{
+	--main-bg-url: url('../../img/coffee-house/main_bg.jpg');
+	--our-best-url: url('../../img/coffee-house/products_bg.jpg')
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1440px;
+	margin: 0 auto;
+}

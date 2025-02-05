@@ -1,0 +1,6 @@
+.product-list{
+	display: flex;
+	gap: 71px;
+	justify-content: center;
+	align-items: start;
+}

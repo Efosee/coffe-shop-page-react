@@ -1,0 +1,24 @@
+[
+	{
+		"src": "/img/products/product_coffee_1.png",
+		"productName": "Solimo Coffee Beans 2 kg",
+		"origin": "",
+		"price": 10.73,
+		"featured": true
+	},
+	{
+		"src": "/img/products/product_coffee_2.png",
+		"productName": "Presto Coffee Beans 1 kg",
+		"origin": "brazil",
+		"price": 15.99,
+		"featured": true
+	},
+	{
+		"src": "/img/products/product_coffee_3.png",
+		"productName": "AROMISTICO Coffee 1 kg",
+		"origin": "",
+		"price": 6.99,
+		"featured": true
+	}
+
+]

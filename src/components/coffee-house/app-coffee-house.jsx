@@ -2,12 +2,12 @@ import MainCoffeeHouse from "./components/main";
 import AboutUs from "./components/about-us";
 import OurBest from "./components/our-best";
 
-const AppCoffeeHouse = () => {
+const AppCoffeeHouse = (props) => {
 	return (
 		<>
 		<MainCoffeeHouse/>
 		<AboutUs/>
-		<OurBest/>
+		<OurBest productData={props.productData} featured={true}/>
 		</>
 	);
 }

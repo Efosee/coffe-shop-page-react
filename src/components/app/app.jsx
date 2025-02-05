@@ -1,13 +1,14 @@
 import { Component } from "react";
 
-import AppCoffeeHouse from "../coffee-house/app-coffee-house";
+import OurCoffee from "../our-coffee/our-coffee";
+// import AppCoffeeHouse from "../coffee-house/app-coffee-house";
 import AppHeader from "../app-header/app-header";
 import AppFooter from "../app-footer/app-footer";
 import './app.css'
 
 class App extends Component {
 	state = {
-		data: null
+		data: null,
 	}
 
 	getJSON = async (src) => {
@@ -23,6 +24,11 @@ class App extends Component {
 			return null;
 		}
 	}
+	// searchData = (arr, term) => {
+	// 	if (!arr) return;
+	// 	if (term === "") return arr;
+	// 	return arr.filter(item => item.productName.indexOf(term) !== -1);
+	// }
 
 	async componentDidMount() {
 		const data = await this.getJSON('/data/productData.json')
@@ -34,7 +40,8 @@ class App extends Component {
 		return (
 			<>
 				<AppHeader />
-				<AppCoffeeHouse productData={this.state.data}/>
+				{/* <AppCoffeeHouse productData={this.state.data}/> */}
+				<OurCoffee productData={this.state.data}/>
 				<AppFooter />
 			</>
 		);

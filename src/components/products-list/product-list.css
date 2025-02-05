@@ -1,6 +1,12 @@
 .product-list{
 	display: flex;
-	gap: 71px;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	gap: 60px 71px;
 	justify-content: center;
 	align-items: start;
+	width: 802px;
+}
+.search-filter-panel ~ .product-list .product-item {
+	box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.25);
 }

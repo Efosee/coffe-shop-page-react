@@ -7,7 +7,7 @@ class ProductsFilter extends Component {
 		{ label: "Columbia", filterText: "Columbia" },
 		{ label: "Kenya", filterText: "Kenya" }
 	]
-	
+
 	render() {
 		const buttons = this.buttonsData.map(({ label, filterText }) => {
 			console.log(filterText, this.props.stateFilter);

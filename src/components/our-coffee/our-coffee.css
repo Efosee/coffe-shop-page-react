@@ -70,6 +70,10 @@ box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.25);
 .products-filter__buttons button:hover{
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
+.products-filter__buttons .products-filter__button_active{
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+	background-color: #dbd8d8;
+}
 .products-filter__buttons button:first-child{
 	border-radius: 4px 0 0 4px;
 }

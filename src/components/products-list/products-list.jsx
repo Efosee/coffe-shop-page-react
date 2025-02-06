@@ -1,7 +1,7 @@
 import Product from "../product/product";
 import './product-list.css';
 
-const ProductList = ({ productData, featured }) => {
+const ProductList = ({ productData, featured, onRoutePage }) => {
 	let listOfProducts;
 
 	if (productData) {
@@ -15,7 +15,9 @@ const ProductList = ({ productData, featured }) => {
 				productName={productName}
 				origin={origin}
 				price={price}
-				key={id} />
+				key={id}
+				productId={id} 
+				onRoutePage={onRoutePage}/>
 		});
 	}
 

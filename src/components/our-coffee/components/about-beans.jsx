@@ -20,7 +20,7 @@ function AboutBeans() {
 					<br/>met spot shy want. Children me laughing we prospect answered followed. At it went
 					<br/>is song that held help face.
 				</div>
-
+				
 				<div className="about-beans__divider"></div>
 			</div>
 		</div>

@@ -2,19 +2,24 @@ import { Component } from "react";
 
 import OurCoffee from "../our-coffee/our-coffee";
 import AppCoffeeHouse from "../coffee-house/app-coffee-house";
+import Pleasure from "../pleasure/pleasure";
 import AppHeader from "../app-header/app-header";
 import AppFooter from "../app-footer/app-footer";
+import ProductPage from '../product-page/product-page';
+
 import './app.css'
 
 class App extends Component {
 	state = {
 		data: null,
-		page: "house"
+		page: "house",
+		productId: ''
 	}
 
 	getJSON = async (src) => {
 		try {
 			const response = await fetch(src);
+			
 
 			if (!response.ok) {
 				throw new Error(`Ошибка: ${response.status}`)
@@ -34,21 +39,30 @@ class App extends Component {
 	routePage(page){
 		switch(page){
 			case "house":
-				return <AppCoffeeHouse productData={this.state.data}/>
+				return <AppCoffeeHouse productData={this.state.data} onRoutePage={this.onRoutePage}/>
 			case "ourCoffee":
-				return <OurCoffee productData={this.state.data}/>
+				return <OurCoffee productData={this.state.data} onRoutePage={this.onRoutePage}/>
 			case "pleasure":
-				return <div>In process</div>
+				return <Pleasure productData={this.state.data} onRoutePage={this.onRoutePage}/>
+			case "product":
+				return <ProductPage productId={this.state.productId}/>
 			default:
 				return <div>ERROR</div>
 		}
 	}
 
-	onRoutePage = (page) => {
+	onRoutePage = (page, id=0) => {
 		this.setState({page});
+		if (id){
+			this.onGetProductId(id);
+		}
 	}
 
+	onGetProductId = (productId) =>{
+		this.setState({productId});
+	}
 
+	
 	render() {
 		const page = this.routePage(this.state.page)
 

@@ -1,0 +1,65 @@
+[
+	{
+		"id": 1,
+		"bigImgSrc": "/img/products/big_product_1.jpg",
+		"origin": "",
+		"price": 10.73,
+		"descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+	},
+	{
+		"id": 2,
+		"bigImgSrc": "/img/products/big_product_1.jpg",
+		"origin": "",
+		"price": 15.99,
+		"descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+	},
+	{
+		"id": 3,
+		"bigImgSrc": "/img/products/big_product_1.jpg",
+		"origin": "",
+		"price": 6.99,
+		"descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+	},
+	{
+		"id": 4,
+		"bigImgSrc": "/img/products/big_product_1.jpg",
+		"origin": "Brazil",
+		"price": 6.99,
+		"descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+	},
+	{
+		"id": 5,
+		"bigImgSrc": "/img/products/big_product_1.jpg",
+		"origin": "Brazil",
+		"price": 6.99,
+		"descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+	},
+	{
+		"id": 6,
+		"bigImgSrc": "/img/products/big_product_1.jpg",
+		"origin": "Kenya",
+		"price": 6.99,
+		"descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+	},
+	{
+		"id": 7,
+		"bigImgSrc": "/img/products/big_product_1.jpg",
+		"origin": "Columbia",
+		"price": 6.99,
+		"descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+	},
+	{
+		"id": 8,
+		"bigImgSrc": "/img/products/big_product_1.jpg",
+		"origin": "Brazil",
+		"price": 6.99,
+		"descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+	},
+	{
+		"id": 9,
+		"bigImgSrc": "/img/products/big_product_1.jpg",
+		"origin": "Brazil",
+		"price": 6.99,
+		"descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+	}
+]

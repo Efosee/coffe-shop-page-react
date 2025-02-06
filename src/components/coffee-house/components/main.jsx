@@ -2,7 +2,10 @@ import '../coffee-house.css';
 
 import Divider from '../../divider/divider';
 
-function MainCoffeeHouse(props) {
+function MainCoffeeHouse() {
+
+	const mainCoffeeHouseBg = require('../../../img/coffee-house/main_bg.jpg');
+	document.documentElement.style.setProperty('--main-bg-url', `url(${mainCoffeeHouseBg})`);
 	return (
 		<div className="container">
 			<main className='main coffee-house'>

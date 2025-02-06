@@ -3,6 +3,7 @@
 	background-color: rgba(255, 255, 255, .65);
 	border-radius: 8px;
 	text-align: right;
+	cursor: pointer;
 }
 .product-item img{
 	display: block;

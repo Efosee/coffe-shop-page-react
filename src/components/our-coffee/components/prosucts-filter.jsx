@@ -10,7 +10,6 @@ class ProductsFilter extends Component {
 
 	render() {
 		const buttons = this.buttonsData.map(({ label, filterText }) => {
-			console.log(filterText, this.props.stateFilter);
 			const activeClass = filterText === this.props.stateFilter ? "products-filter__button_active" : "";
 			return (
 				<button

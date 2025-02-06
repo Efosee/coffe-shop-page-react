@@ -1,0 +1,12 @@
+.pleasure-main{
+	min-height: 260px;
+	padding-top: 130px;
+	background: var(--main-bg-url);
+}
+
+.pleasure .product-item {
+	box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.25);
+}
+.pleasure{
+	margin-bottom: 30px;
+}

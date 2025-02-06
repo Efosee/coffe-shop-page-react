@@ -3,7 +3,7 @@ import './product.css';
 class Product extends Component {
 
 	render() {
-		let {src, productName, origin, price} = this.props;
+		let {src, productName, origin, price, onRoutePage, productId} = this.props;
 
 		if (origin) {
 			origin = (
@@ -13,7 +13,7 @@ class Product extends Component {
 		}
 
 		return (
-			<div className="product-item">
+			<div className="product-item" onClick={() => onRoutePage("product", productId)}>
 				<img src={src} alt={productName} />
 				<div className="product-item__product-name">
 					{productName}

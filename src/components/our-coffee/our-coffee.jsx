@@ -42,8 +42,8 @@ class OurCoffee extends Component {
 		let productData = this.searchData(this.props.productData, this.state.term);
 		productData = this.filterData(productData, this.state.filter)
 
-		const ourCoffeeMainBg = require('../../img/our-coffee/our-coffee-main.png');
-		document.documentElement.style.setProperty('--main-bg-url', `url(${ourCoffeeMainBg})`);
+		// const ourCoffeeMainBg = require('../../img/our-coffee/our-coffee-main.png');
+		// document.documentElement.style.setProperty('--main-bg-url', `url(${ourCoffeeMainBg})`);
 		return (
 			<>
 				<OurCoffeeMain />
@@ -54,7 +54,7 @@ class OurCoffee extends Component {
 					onSearchCoffee={this.onSearchCoffee}/>
 					<ProductsFilter onUpdateFilter={this.onUpdateFilter} stateFilter={this.state.filter}/>
 				</div>
-				<ProductList productData={productData} featured={false} />
+				<ProductList productData={productData} featured={false} onRoutePage={this.props.onRoutePage}/>
 			</>
 		);
 	}

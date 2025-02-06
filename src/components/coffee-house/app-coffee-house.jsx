@@ -7,7 +7,7 @@ const AppCoffeeHouse = (props) => {
 		<>
 		<MainCoffeeHouse/>
 		<AboutUs/>
-		<OurBest productData={props.productData} featured={true}/>
+		<OurBest productData={props.productData} featured={true} onRoutePage={props.onRoutePage}/>
 		</>
 	);
 }

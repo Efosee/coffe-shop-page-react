@@ -1,0 +1,38 @@
+.product-info__header{
+	font-weight: normal;
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 21px;
+	margin-top: 8px;
+}
+.product-info{
+	margin-top: 70px;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto;
+	grid-auto-rows: auto;
+
+	justify-content: center;
+
+	gap: 0 55px;
+	margin-bottom: 30px;
+}
+.product-info__wrapper{
+	width: 418px;
+}
+.product-info__country{
+margin-top: 25px;
+font-size: 14px;
+}
+.product-info__description{
+	margin-top: 16px;
+	font-size: 14px;
+}
+.product-info__price{
+	margin-top: 16px;
+	font-size: 24px;
+}
+.product-info__price span{
+	font-size: 14px;
+	font-weight: bold;
+}
